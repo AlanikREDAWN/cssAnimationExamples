@@ -1,0 +1,78 @@
+@keyframes example1 {
+    from {
+        background-color: blue;
+        color: red;
+        border-radius: 50px;
+    }
+    to {
+        background-color: purple;
+        color: orange;
+    }
+}
+
+@keyframes example2 {
+    from {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    to {
+        position: absolute;
+        left: 50px;
+        top: 100px;
+    }
+}
+
+@keyframes example3 {
+    from {
+        position: absolute;
+        left: 300px;
+        top: 300px;
+    }
+    to {
+        position: absolute;
+        left: 30px;
+        top: 400px;
+    }
+}
+
+.div1 {
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: purple;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.div3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    animation-name: example3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
